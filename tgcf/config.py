@@ -133,11 +133,11 @@ def get_env_var(name: str, optional: bool = False) -> str:
     return var
 
 
-API_ID = get_env_var("API_ID")
-API_HASH = get_env_var("API_HASH")
+API_ID = get_env_var("7407763")
+API_HASH = get_env_var("80c6084755d3bc8f9b45228d54123b32")
 USERNAME = get_env_var("USERNAME", optional=True)
 SESSION_STRING = get_env_var("SESSION_STRING", optional=True)
-BOT_TOKEN = get_env_var("BOT_TOKEN", optional=True)
+BOT_TOKEN = get_env_var("1990976698:AAEXWeVUGM0_C11YQPDDBXjDOk97eqWWq-8", optional=True)
 
 if SESSION_STRING:
     SESSION = StringSession(SESSION_STRING)
