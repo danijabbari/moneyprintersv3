@@ -136,7 +136,7 @@ def get_env_var(name: str, optional: bool = False) -> str:
 API_ID = get_env_var("7407763")
 API_HASH = get_env_var("80c6084755d3bc8f9b45228d54123b32")
 USERNAME = get_env_var("USERNAME", optional=True)
-SESSION_STRING = get_env_var("SESSION_STRING", optional=True)
+SESSION_STRING = get_env_var("AQC7XS_87ad-60HOT_P-t9xPDRASzWwkHckFlZaF1tTMUeCIVMuCOt_69aDjCkilPN2X6dzpEg-kxAtePnEbE0uQGBifZVDXES2o3jpjNsLtgs6bhRJ9EHP-EPcAwQsY7wwIBMr3yAqz8Rg78XYBzrfJyrFhUL3T_1M_XLUCnQsUmCuoYgqi_h-iqVH35ZMrA3AHQCAsFWrSoVpYylNUOFi_6rdTCEHxh1RdmIHnIMCmnZPZ7vmTZ4Of3bu51fYy0eHxrK-iqAW8zKSCOy_V_gzb06SFxcs-tCxCg-cHhk_SkOp4l6hD-zIaMrAUGdrsff52NlgJYN2qDtsOj2za1hQ7bek7wQA", optional=True)
 BOT_TOKEN = get_env_var("1990976698:AAEXWeVUGM0_C11YQPDDBXjDOk97eqWWq-8", optional=True)
 
 if SESSION_STRING:
